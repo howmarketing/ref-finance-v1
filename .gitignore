@@ -12,11 +12,11 @@ package-lock.json
 dist/
 
 #keys
-/neardev
+# /neardev
 
 
 # testing
-/coverage
+# /coverage
 
 # production
 /build
@@ -31,5 +31,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.env
-.idea
+# .env
+# .idea
