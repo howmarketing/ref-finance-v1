@@ -61,11 +61,11 @@ export default function getConfig(env: string = process.env.NEAR_ENV) {
   switch (env) {
     case 'production':
     case 'mainnet':
-      return mainnetConfig;
+      return testnetConfig;
     case 'development':
     case 'testnet':
       return testnetConfig;
     default:
-      return mainnetConfig;
+      return testnetConfig;
   }
 }
